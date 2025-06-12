@@ -1,6 +1,8 @@
 import Navbar from '@/app/components/Navbar';
 import Hero from '@/app/components/Hero';
 import About from '@/app/components/About';
+import Battlegrounds from '@/app/components/Battlegrounds';
+import Arsenal from '@/app/components/Arsenal';
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
+      <Battlegrounds />
+      <Arsenal />
     </div>
   );
 }
