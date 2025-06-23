@@ -20,17 +20,23 @@ const Navbar = () => {
           <a href="#" className="hover:text-paint-neon transition-colors">
             Home
           </a>
-          <a href="#" className="hover:text-paint-neon transition-colors">
-            Battlegrounds
+          <a href="#battlegrounds" className="hover:text-paint-neon transition-colors">
+            Teren
           </a>
-          <a href="#" className="hover:text-paint-neon transition-colors">
-            Arsenal
+          <a href="#arsenal" className="hover:text-paint-neon transition-colors">
+            Oprema
           </a>
-          <a href="#" className="hover:text-paint-neon transition-colors">
-            Missions
+          <a href="#services" className="hover:text-paint-neon transition-colors">
+            Cijene
           </a>
-          <a href="#" className="hover:text-paint-neon transition-colors">
-            Contact
+          <a href="#gallery" className="hover:text-paint-neon transition-colors">
+            Galerija
+          </a>
+          <a href="#booking" className="hover:text-paint-neon transition-colors">
+            Rezerviraj
+          </a>
+          <a href="#safety" className="hover:text-paint-neon transition-colors">
+            Sigurnost
           </a>
         </div>
         <button

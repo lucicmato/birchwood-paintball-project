@@ -32,13 +32,18 @@ const Hero = () => {
               Savladaj taktičko ratovanje i doživi vrhunsku paintball avanturu u Birchwoodu.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              {/*TODO: dodaj href*/}
-              <button className="bg-leaf-green hover:bg-opacity-80 text-white font-bold py-3 px-8 rounded-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(46,125,50,0.3)]">
+              <a
+                className="bg-leaf-green hover:bg-opacity-80 text-white font-bold py-3 px-8 rounded-lg transition-all transform hover:scale-105 shadow-[0_0_15px_rgba(46,125,50,0.3)]"
+                href="#booking"
+              >
                 PRIDRUŽI SE
-              </button>
-              <button className="border-2 border-white hover:border-paint-neon hover:text-paint-neon text-white font-bold py-3 px-8 rounded-lg transition-all">
+              </a>
+              <a
+                className="border-2 border-white hover:border-paint-neon hover:text-paint-neon text-white font-bold py-3 px-8 rounded-lg transition-all"
+                href="#battlegrounds"
+              >
                 POGLEDAJ TEREN I OPREMU
-              </button>
+              </a>
             </div>
           </div>
         </div>
