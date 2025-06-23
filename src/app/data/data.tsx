@@ -1,7 +1,7 @@
 import { JSX } from 'react';
 
 import { FlagIcon, MapIcon, ShieldIcon } from 'lucide-react';
-import { BattlegroundsType, EquipementType, ProductCategory } from '@/app/models/types';
+import { BattlegroundsType, GalleryImagesType, ProductCategory } from '@/app/models/types';
 
 export const fieldSpecsBattlegroundsData: BattlegroundsType[] = [
   {
@@ -60,5 +60,24 @@ export const equipmentData: ProductCategory[] = [
         ],
       },
     ],
+  },
+];
+
+export const galleryImages: GalleryImagesType[] = [
+  {
+    url: '/images/puske.png',
+    title: 'Strategic Position',
+  },
+  {
+    url: '/images/odijela1.png',
+    title: 'Team Briefing',
+  },
+  {
+    url: '/images/novi_dresovi.png',
+    title: 'Tactical Advance',
+  },
+  {
+    url: '/images/ekipa.svg',
+    title: 'Mission Complete',
   },
 ];

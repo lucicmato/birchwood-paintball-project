@@ -15,7 +15,7 @@ export default function Home() {
       <Battlegrounds />
       <Arsenal />
       <Services/>
-      {/*<Gallery />*/}
+      <Gallery />
     </div>
   );
 }

@@ -114,7 +114,7 @@ return (
               Stalni nadzor za sigurnu i fair-play igru
             </li>
             <li className="flex items-center">
-              <span className="text-paint-yellow mr-2">•</span>
+              <span className="text-paint-neon mr-2">•</span>
               Soda voda za dodatno osvježenje
             </li>
           </ul>

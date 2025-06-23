@@ -13,3 +13,8 @@ export type ProductCategory = {
   category: string;
   items: ProductItem[];
 };
+
+export type GalleryImagesType = {
+  url: string;
+  title: string;
+}
