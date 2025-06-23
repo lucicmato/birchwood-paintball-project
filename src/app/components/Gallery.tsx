@@ -56,7 +56,7 @@ const Gallery = () => {
 
   // On key down setup -- settings if user want to list gallery with keyboard
   useEffect(() => {
-    window.addEventListener('keydown', handleKeyDown);
+    isModalOpen && window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
   const openModal = (index: number) => {

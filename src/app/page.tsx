@@ -5,6 +5,8 @@ import Battlegrounds from '@/app/components/Battlegrounds';
 import Arsenal from '@/app/components/Arsenal';
 import Services from '@/app/components/Services';
 import Gallery from '@/app/components/Gallery';
+import Booking from '@/app/components/Booking';
+import Safety from '@/app/components/Safety';
 
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
       <About />
       <Battlegrounds />
       <Arsenal />
-      <Services/>
+      <Services />
       <Gallery />
+      <Booking />
+      <Safety />
     </div>
   );
 }

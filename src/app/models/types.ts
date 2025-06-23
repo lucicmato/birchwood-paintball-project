@@ -17,4 +17,10 @@ export type ProductCategory = {
 export type GalleryImagesType = {
   url: string;
   title: string;
-}
+};
+
+export type ContactFormData = {
+  name: string;
+  email: string;
+  message: string;
+};
