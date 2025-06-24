@@ -21,12 +21,12 @@ const About = () => {
             Naša <span className="text-paint-yellow">Priča</span>
           </h2>
           <p className="text-gray-300 mb-8">
-            Paintball Birchwood – u prijevodu "Drvo breze" – jedinstveni je paintball teren otvoren
-            2023. godine u Breziku, nadomak Grada Našica. Ideja iza otvaranja bila je jednostavna:
-            igra, zabava i sjajan način da se dobro istrčiš i opustiš. Ono što Birchwood izdvaja od
-            ostalih jest činjenica da je to jedini paintball teren u ovom dijelu Slavonije s
-            promjenjivim preprekama (bunkerima). Svaki posjet donosi novu konfiguraciju terena, što
-            ga čini idealnim i za povremenu igru i za ozbiljnije turnire.
+            Paintball Birchwood – u prijevodu &quot;Drvo breze&quot; – jedinstveni je paintball
+            teren otvoren 2023. godine u Breziku, nadomak Grada Našica. Ideja iza otvaranja bila je
+            jednostavna: igra, zabava i sjajan način da se dobro istrčiš i opustiš. Ono što
+            Birchwood izdvaja od ostalih jest činjenica da je to jedini paintball teren u ovom
+            dijelu Slavonije s promjenjivim preprekama (bunkerima). Svaki posjet donosi novu
+            konfiguraciju terena, što ga čini idealnim i za povremenu igru i za ozbiljnije turnire.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 text-white">

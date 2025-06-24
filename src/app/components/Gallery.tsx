@@ -12,17 +12,16 @@ const Gallery = () => {
 
   const handlePrevious = useCallback(() => {
     setSelectedImage(prevState => (prevState !== 0 ? prevState - 1 : prevState));
-  }, [galleryImages]);
+  }, []);
 
   const handleNext = useCallback(() => {
     setSelectedImage(prevState =>
       prevState !== galleryImages.length - 1 ? prevState + 1 : prevState
     );
-  }, [galleryImages]);
+  }, []);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      console.log(e);
       if (!isModalOpen) return;
 
       switch (e.key) {
@@ -56,7 +55,7 @@ const Gallery = () => {
 
   // On key down setup -- settings if user want to list gallery with keyboard
   useEffect(() => {
-    isModalOpen && window.addEventListener('keydown', handleKeyDown);
+    if (isModalOpen) window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [handleKeyDown]);
   const openModal = (index: number) => {

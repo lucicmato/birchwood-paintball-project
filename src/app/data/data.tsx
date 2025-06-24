@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { JSX } from 'react';
 
 import { FlagIcon, MapIcon, ShieldIcon } from 'lucide-react';
