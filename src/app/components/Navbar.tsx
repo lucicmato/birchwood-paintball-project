@@ -1,10 +1,8 @@
 'use client';
-import React, { useState } from 'react';
-
-import { MenuIcon, XIcon } from 'lucide-react';
+import React from 'react';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  //const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   return (
     <nav className="bg-forest-dark text-white py-4 px-6 shadow-lg relative">
       {/* Paint Splatters */}
