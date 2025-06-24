@@ -41,7 +41,7 @@ const Battlegrounds = () => {
                 >
                   <div className="text-paint-yellow mb-3">{spec.icon}</div>
                   <div className="text-sm text-gray-300 mb-1">{spec.label}</div>
-                  <div className="font-bold text-lg">{spec.value}</div>
+                  <div className="sm:font-bold sm:text-lg text-[12px] font-bold ">{spec.value}</div>
                 </div>
               ))}
             </div>
