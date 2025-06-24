@@ -12,13 +12,13 @@ const Gallery = () => {
 
   const handlePrevious = useCallback(() => {
     setSelectedImage(prevState => (prevState !== 0 ? prevState - 1 : prevState));
-  }, [galleryImages.length]);
+  }, [galleryImages]);
 
   const handleNext = useCallback(() => {
     setSelectedImage(prevState =>
       prevState !== galleryImages.length - 1 ? prevState + 1 : prevState
     );
-  }, [galleryImages.length]);
+  }, [galleryImages]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -34,7 +34,7 @@ const Gallery = () => {
           break;
         case 'Escape':
           setIsModalOpen(false);
-          setSelectedImage(null);
+          setSelectedImage(0);
           break;
       }
     },
@@ -65,7 +65,7 @@ const Gallery = () => {
   };
   const closeModal = () => {
     setIsModalOpen(false);
-    setSelectedImage(null);
+    setSelectedImage(0);
   };
 
   return (
